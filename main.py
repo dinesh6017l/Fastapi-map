@@ -13,7 +13,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-DB_URL = "postgresql://postgres:12345678@localhost:5432/gisdata"
+DB_URL = "postgresql://postgres.htotuqmvdbxwzfbrhjwc:DINBHAN%232024@aws-1-ap-south-1.pooler.supabase.com:5432/postgres"
 
 @app.get("/")
 async def serve_html():
